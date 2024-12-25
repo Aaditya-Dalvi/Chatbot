@@ -12,7 +12,7 @@ st.set_page_config(page_title='LLM Project')
 
 st.header('LLM Gemini Application 🤖')
 
-input = st.text_input('Please ask question',key='input')
+input = st.text_input('Please ask question',key='input', height=400)
 submit = st.button('Submit')
 
 
